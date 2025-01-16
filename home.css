@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url(/PortfolioAbraham/Images/ImagePortfolio.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 10px;
+
+}
+nav ul li a {
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+}
+nav ul li a:hover {
+    color: red;
+    text-decoration: underline;
+    padding: 5px;
+}
+nav ul li a:active {
+    text-decoration: underline;
+    color: red;
+}
+
+
+main {
+    margin: 100px 0;
+}
+main .intro {
+    text-align: center;
+    line-height: 70px;
+}
+.intro h1 {
+    font-size: 100px;
+}
+.intro h1 span {
+    color: red;
+}
+.intro p {
+    font-size: 20px;
+    font-weight: lighter;
+    margin-top: 30px;
+}
+.intro button {
+    padding: 15px;
+    width: 250px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    margin-top: 10px ;
+    border: none;
+    cursor: pointer;
+}
+.intro button a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 20px;
+}
+footer .first {
+    line-height: 25px;
+}
+footer .second {
+    display: flex;
+    gap: 40px;
+}
+footer .second i {
+    font-size: 38px;
+}
+footer .second i:hover {
+    color: red;
+}
+footer .second a {
+    color: white;
+}

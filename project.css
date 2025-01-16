@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 10px;
+
+}
+nav ul li a {
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+}
+nav ul li a:hover {
+    color: red;
+    text-decoration: underline;
+    padding: 5px;
+}
+nav ul li a:active {
+    text-decoration: underline;
+    color: red;
+}
+
+main .title {
+    margin: 50px 0;
+    text-align: center;
+    font-size: 50px;
+}
+main span {
+    color: red;
+}
+
+main .projectparent {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+main .card-project img {
+    width: 440px;
+    height: 200px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+main .card-project {
+    text-align: center;
+    line-height: 22px;
+    width: 450px;
+    border: none;
+    box-shadow: 4px 5px 4px white, 2px 3px 3px inset;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 30px 10px;
+}
+main .card-project a {
+    text-decoration: none;
+    color: red;
+    font-size: 20px;
+}

@@ -1,0 +1,115 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 10px;
+
+}
+nav ul li a {
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+}
+nav ul li a:hover {
+    color: red;
+    text-decoration: underline;
+    padding: 5px;
+}
+nav ul li a:active {
+    text-decoration: underline;
+    color: red;
+}
+
+
+main .about h1 {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 90px;
+}
+
+main .about span {
+    color: red;
+}
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.info img {
+    width: 300px;
+    height: 650px;
+}
+.info .aboutme {
+    width: 600px;
+    padding: 10px;
+    line-height: 30px;
+}
+.aboutme .aboutmechild {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 20px;
+
+}
+.aboutme button {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    width: 200px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+.aboutme button a {
+    text-decoration: none;
+}
+.aboutme button:hover {
+    background-color: #075e54;
+    transition: 2s;
+}
+
+.skills {
+    margin: 140px 0;
+}
+.skills .myskills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+}
+
+
+
+.html, .css, .javascript, .jquery, .react{
+    box-shadow:3px 3px 2px #333;
+    width: 440px;
+    float:left;}
+.html span, .css span, .javascript span, .jquery span, .react span{
+    display: inline-block;
+    min-height:15px
+}
+
+.bar1{
+    background:red;
+    width:380px;
+}
+.bar2 {
+    background-color: red;
+    width: 350px;
+}
+.bar4 {
+    background-color: red;
+    width: 230px;
+}
+.bar3, .bar5 {
+    background-color: red;
+    width: 330px;
+}
