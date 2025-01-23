@@ -83,12 +83,6 @@ main .information {
     color: white;
 }
 
-.form {
-    text-align: center;
-    margin: 0 400px;
-    width: 600px;
-}
-
 .emapp {
     width: 450px;
     margin: 145px 0;
@@ -99,3 +93,48 @@ main .information {
     gap: 45px;
     justify-content: center;
 }
+
+/* Responsive */
+
+/* Mobile styles */
+@media (max-width: 768px) {
+    nav ul {
+        display: none;
+    }
+    
+    .tooggle i {
+        font-size: 50px;
+    }
+    .tooggle {
+        text-align: center;
+    }
+    main .title h1 {
+        font-size: 50px;
+    }
+    .form {
+        text-align: center;
+        margin: 0 20px;
+        font-size: 25px;
+
+    }
+}
+
+  /* Tablet styles */
+  @media (min-width: 769px) and (max-width: 1024px) {
+    
+    .form {
+        text-align: center;
+        margin: 0 200px;
+        font-size: 25px;
+    }
+
+  }
+
+  /* Larger tablets and small desktops */
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .form {
+        text-align: center;
+        margin: 0 400px;
+        width: 600px;
+    }
+  }

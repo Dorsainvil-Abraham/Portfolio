@@ -6,9 +6,13 @@
     <link rel="stylesheet" href="contact.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <title>Abraham</title>
 </head>
 <body>
+    <div class="tooggle">
+        <i class="fa fa-bars" aria-hidden="true" id="toggle"></i>
+    </div>
     <nav>
         <ul>
             <li><a href="home.html">Home</a></li>
@@ -66,5 +70,20 @@
             </div>
         </div>
     </main>
+
+    <script>
+        $(document).ready(function(){
+
+          $("#toggle").click(function(){
+            $("ul").fadeToggle();
+          });
+        });
+        $(document).ready(function(){
+
+         $("#toggle").click(function(){
+         $("ul").css({"color": "black", "text-align": "center","margin": "10px" ,"width": "250px", "height": "240px", "padding": "30px", "line-height": "40px"});
+       });
+      });
+    </script>
 </body>
 </html>

@@ -5,10 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="home.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <title>Abraham</title>
 </head>
 <body>
-    <nav>
+    <div class="tooggle">
+        <i class="fa fa-bars" aria-hidden="true" id="toggle"></i>
+    </div>
+    <nav class="navbar">
         <ul>
             <li><a href="home.html">Home</a></li>
             <li><a href="about.html">About Me</a></li>
@@ -39,5 +43,20 @@
                 <a href="https://www.linkedin.com/in/abraham-de-sodano-dorsainvil-4a5515330/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></class></a>
         </div>
     </footer>
+
+    <script>
+        $(document).ready(function(){
+
+          $("#toggle").click(function(){
+            $("ul").fadeToggle();
+          });
+        });
+        $(document).ready(function(){
+
+         $("#toggle").click(function(){
+         $("ul").css({"color": "black", "text-align": "center","margin": "10px" ,"width": "250px", "height": "240px", "padding": "30px", "line-height": "40px"});
+       });
+      });
+    </script>
 </body>
 </html>

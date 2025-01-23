@@ -71,3 +71,46 @@ main .card-project a {
     color: red;
     font-size: 20px;
 }
+
+/* Mobile styles */
+@media (max-width: 768px) {
+    main .title h1 {
+        font-size: 40px;
+    }
+    nav ul {
+        display: none;
+    }
+    .tooggle i {
+        font-size: 50px;
+    }
+    .tooggle {
+        text-align: center;
+    }
+    main .card-project img {
+        max-width: 100%;
+    }
+    main .card-project {
+        text-align: center;
+        line-height: 22px;
+        width: 300px;
+    }
+  }
+
+  /* Tablet styles */
+  @media (min-width: 769px) and (max-width: 1024px) {
+    main .projectparent {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+        justify-content: space-around;
+    }
+    
+    main .card-project img {
+        max-width: 100%;
+    }
+    main .card-project {
+        text-align: center;
+        line-height: 22px;
+        width: 400px;
+    }
+  }

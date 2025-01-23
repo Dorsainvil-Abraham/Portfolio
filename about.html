@@ -5,9 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Abraham/AboutMe</title>
     <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 
 </head>
 <body>
+    <div class="tooggle">
+        <i class="fa fa-bars" aria-hidden="true" id="toggle"></i>
+    </div>
     <nav>
         <ul>
             <li><a href="home.html">Home</a></li>
@@ -22,7 +27,7 @@
         </div>
 
         <div class="info">
-            <img src="Images/WhatsApp Image 2025-01-09 at 16.33.22_a46f5b9a.jpg" alt="VinoTintoWebsite">
+            <img src="Images/WhatsApp Image 2025-01-09 at 16.33.22_a46f5b9a.jpg" alt="profile">
             <div class="aboutme">
                 <p>
                     I'm Amswon Abraham DS. Dorsainvil, haitian front‑end developer living in UAE, Passionate and detail-oriented Front-End Developer with comprehensive training from Meta, having completed nine courses in web development. Proficient in creating responsive and dynamic user interfaces using HTML, CSS, and JavaScript. Possessing strong problem-solving skills cultivated through previous roles in translation, interpretation, and telecommunication. Eager to leverage a unique blend of technical expertise and communication proficiency to deliver engaging and intuitive web experiences.
@@ -74,5 +79,20 @@
             </div>
         </div>
     </main>
+
+    <script>
+        $(document).ready(function(){
+
+          $("#toggle").click(function(){
+            $("ul").fadeToggle();
+          });
+        });
+        $(document).ready(function(){
+
+         $("#toggle").click(function(){
+         $("ul").css({"color": "black", "text-align": "center","margin": "10px" ,"width": "250px", "height": "240px", "padding": "30px", "line-height": "40px"});
+       });
+      });
+    </script>
 </body>
 </html>
