@@ -97,7 +97,7 @@ footer .second a {
     body {
      background-image: url(Images/ImagePortfolio.jpg);
      background-repeat: no-repeat;
-    background-size: cover;
+     background-size: cover;
     }
     nav ul {
         display: none;
@@ -144,6 +144,17 @@ footer .second a {
     footer .second i:hover {
         color: white;
     }
+  }
+
+  /* Mobile styles */
+  @media (max-width: 429px) {
+    body {
+        max-width: 100%;
+    }
+    footer .second {
+        margin: 20px 0;
+    }
+
   }
 
   /* Tablet styles */

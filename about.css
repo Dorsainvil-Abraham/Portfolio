@@ -113,6 +113,8 @@ main .about span {
     background-color: red;
     width: 330px;
 }
+
+
 /* Responsive */
 
 /* Mobile styles */
@@ -150,8 +152,84 @@ main .about span {
         display: flex;
         flex-direction: column;
     }
+}
 
+/* Mobile styles */
 
+@media (max-width: 429px) {
+    .info .aboutme {
+        width: 400px;
+        padding: 10px;
+        line-height: 30px;
+    }
+    .aboutme .aboutmechild {
+        width: 300px;
+        margin-left: 10px;
+    }
+    .html, .css, .javascript, .jquery, .react{
+        box-shadow:3px 3px 2px #333;
+        width: 370px;
+        float:left;}
+    .html span, .css span, .javascript span, .jquery span, .react span{
+        display: inline-block;
+        min-height:15px
+    }
+
+    .bar1{
+        background:red;
+        width:280px;
+    }
+    .bar2 {
+        background-color: red;
+        width: 250px;
+    }
+    .bar4 {
+        background-color: red;
+        width: 130px;
+    }
+    .bar3, .bar5 {
+        background-color: red;
+        width: 230px;
+    }
+  }
+
+  /* Mobile styles */
+
+@media (max-width: 380px) {
+    .info .aboutme {
+        width: 300px;
+        padding: 10px;
+        line-height: 30px;
+    }
+    .aboutme .aboutmechild {
+        width: 300px;
+        margin-left: 10px;
+    }
+    .html, .css, .javascript, .jquery, .react{
+        box-shadow:3px 3px 2px #333;
+        width: 300px;
+        float:left;}
+    .html span, .css span, .javascript span, .jquery span, .react span{
+        display: inline-block;
+        min-height:15px
+    }
+
+    .bar1{
+        background:red;
+        width:230px;
+    }
+    .bar2 {
+        background-color: red;
+        width: 210px;
+    }
+    .bar4 {
+        background-color: red;
+        width: 150px;
+    }
+    .bar3, .bar5 {
+        background-color: red;
+        width: 200px;
+    }
 }
 
   /* Tablet styles */

@@ -118,6 +118,30 @@ main .information {
 
     }
 }
+/* Mobile styles */
+
+@media (max-width: 429px) {
+    .emapp {
+        width: 400px;
+        margin: 145px 0;
+        text-align: center;
+    }
+}
+/* Mobile styles */
+
+@media (max-width: 380px) {
+    .call, .email, .address{
+        width: 315px;
+    }
+    .call i,.email i, .address i {
+        font-size: 48px;
+    }
+    .emapp {
+        width: 300px;
+        margin: 125px 0;
+        text-align: center;
+    }
+}
 
   /* Tablet styles */
   @media (min-width: 769px) and (max-width: 1024px) {
